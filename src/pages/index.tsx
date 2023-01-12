@@ -16,6 +16,18 @@ const Home: NextPage = () => {
   return (
     <>
       <Header />
+      <div className="f"></div>
+      <main className="flex w-full flex-1 flex-col items-center justify-center gap-5 p-4 px-20 text-center">
+        <iframe
+          className="br-12"
+          src="https://open.spotify.com/embed/artist/1DzQInbDVhE9Lh5s6T0DUL?utm_source=generator&theme=0"
+          width="100%"
+          height="380"
+          allowFullScreen={false}
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </main>
     </>
   );
 };
